@@ -7,3 +7,19 @@
 ## Topic
 
 最近近くの伊吹山でいぬわしのひなが生まれたらしいです。ぴよぴよかわいいね！！
+
+## 3D Data
+
+私たちは機体の設計にAutodesk Fusion360を使用しています。機体の最新の設計データのリンクはこちらです。ダウンロードをご希望の方はTwitterのDMにて個別にお知らせください。
+
+![https://a360.co/41CARyh](https://a360.co/41CARyh)
+
+## フォルダ構成
+
+- CFRP_DXF　カーボン発注のDXFファイル
+- PCB　基板データ（Autodesk Eagle）
+  - 01-main　メイン基板
+  - 02-UI　UI基板
+  - 03-ToF　距離センサ基板
+  - 04-bottom　下段基板
+  - 05-PWR　電源基板
