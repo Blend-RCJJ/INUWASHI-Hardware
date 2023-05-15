@@ -12,7 +12,7 @@
 
 私たちは機体の設計にAutodesk Fusion360を使用しています。機体の最新の設計データのリンクはこちらです。ダウンロードをご希望の方はTwitterのDMにて個別にお知らせください。
 
-![https://a360.co/41CARyh](https://a360.co/41CARyh)
+[https://a360.co/41CARyh](https://a360.co/41CARyh)
 
 ## フォルダ構成
 
