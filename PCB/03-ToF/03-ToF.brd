@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -191,10 +191,10 @@
 </layers>
 <board>
 <plain>
-<circle x="10.999959375" y="-10.695209375" radius="1.05" width="0.05" layer="20"/>
-<circle x="13.999959375" y="4.304790625" radius="1.05" width="0.05" layer="20"/>
-<circle x="-11.000040625" y="-10.695209375" radius="1.05" width="0.05" layer="20"/>
-<circle x="-14.000040625" y="4.304790625" radius="1.05" width="0.05" layer="20"/>
+<circle x="10.999959375" y="-10.695209375" radius="2" width="0.05" layer="42"/>
+<circle x="13.999959375" y="4.304790625" radius="2" width="0.05" layer="41"/>
+<circle x="-11.000040625" y="-10.695209375" radius="2" width="0.05" layer="41"/>
+<circle x="-14.000040625" y="4.304790625" radius="2" width="0.05" layer="41"/>
 <circle x="30.052040625" y="30.052040625" radius="1.05" width="0.05" layer="20"/>
 <wire x1="25.091" y1="31.151909375" x2="-25.091" y2="31.151909375" width="0.05" layer="20" curve="77.7"/>
 <wire x1="-25.091" y1="31.151909375" x2="-27.759759375" y2="31.2953" width="0.05" layer="20" curve="-83.85"/>
@@ -228,6 +228,14 @@
 <wire x1="-2.54" y1="-9.525" x2="2.54" y2="-9.525" width="0.05" layer="20"/>
 <wire x1="2.54" y1="-8.255" x2="2.54" y2="-9.525" width="0.05" layer="20" curve="-180"/>
 <wire x1="-2.54" y1="-9.525" x2="-2.54" y2="-8.255" width="0.05" layer="20" curve="-180"/>
+<circle x="10.999959375" y="-10.695209375" radius="2" width="0.05" layer="41"/>
+<circle x="10.999959375" y="-10.695209375" radius="1.05" width="0.05" layer="20"/>
+<circle x="13.999959375" y="4.304790625" radius="2" width="0.05" layer="42"/>
+<circle x="13.999959375" y="4.304790625" radius="1.05" width="0.05" layer="20"/>
+<circle x="-14.000040625" y="4.304790625" radius="2" width="0.05" layer="42"/>
+<circle x="-14.000040625" y="4.304790625" radius="1.05" width="0.05" layer="20"/>
+<circle x="-11.000040625" y="-10.695209375" radius="2" width="0.05" layer="42"/>
+<circle x="-11.000040625" y="-10.695209375" radius="1.05" width="0.05" layer="20"/>
 </plain>
 <libraries>
 <library name="Seeeduino XIAO">
@@ -1690,9 +1698,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.381" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
 </class>
-<class number="1" name="PWR" width="0.508" drill="0">
+<class number="1" name="PWR" width="0.381" drill="0">
 </class>
 <class number="2" name="XSHUT" width="0.254" drill="0">
 </class>
@@ -1778,7 +1786,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </designrules>
 <autorouter>
 <pass name="Default">
-<param name="RoutingGrid" value="0.5mm"/>
+<param name="RoutingGrid" value="19.6850394mil"/>
 <param name="AutoGrid" value="1"/>
 <param name="Efforts" value="2"/>
 <param name="TopRouterVariant" value="1"/>
@@ -1916,7 +1924,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="DESCRIPTION" value=" Interface IC - I/O extensions NXP Semiconductors PCA9555PW, 112 POR I²C, SMBus 400 kHz TSSOP 24 " x="5.08" y="-1.27" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="NXP Semiconductors" x="5.08" y="-1.27" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="PCA9555PW,112" x="5.08" y="-1.27" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="9.58" y="2.635" size="1.27" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="TSSOP-24 NXP Semiconductors" x="5.08" y="-1.27" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="5.08" y="-1.27" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/PCA9555PW,112/?ref=eda" x="5.08" y="-1.27" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1928,7 +1935,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="100μ" x="-7.62" y="1.27" smashed="yes" rot="R180">
 <attribute name="POPULARITY" value="3" x="1.27" y="-8.89" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="1.27" y="-8.89" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-4.845" y="5.505" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="100μ" x="-7.62" y="-4.445" smashed="yes" rot="R180">
 <attribute name="POPULARITY" value="3" x="1.27" y="-14.605" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2027,9 +2033,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="SPICEPREFIX" value="R" x="-128.65" y="27.81" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 </element>
 <element name="VL13" library="VL53L0X" package="1X04" value="VL53L0X" x="-25.6" y="0" smashed="yes" rot="R90"/>
-<element name="VL14" library="VL53L0X" package="1X04" value="VL53L0X" x="-23.651315625" y="9.796696875" smashed="yes" rot="R67.5">
-<attribute name="NAME" x="-26.342084375" y="8.07949375" size="1.27" layer="25" ratio="10" rot="R67.5"/>
-</element>
+<element name="VL14" library="VL53L0X" package="1X04" value="VL53L0X" x="-23.651315625" y="9.796696875" smashed="yes" rot="R67.5"/>
 <element name="VL15" library="VL53L0X" package="1X04" value="VL53L0X" x="-18.101934375" y="18.101934375" smashed="yes" rot="R45"/>
 <element name="VL16" library="VL53L0X" package="1X04" value="VL53L0X" x="-9.796696875" y="23.651315625" smashed="yes" rot="R22.5"/>
 <element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k" x="3.81" y="3.81" smashed="yes" rot="R270">

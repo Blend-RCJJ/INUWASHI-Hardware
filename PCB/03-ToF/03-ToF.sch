@@ -20677,9 +20677,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.381" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
 </class>
-<class number="1" name="PWR" width="0.508" drill="0">
+<class number="1" name="PWR" width="0.381" drill="0">
 </class>
 <class number="2" name="XSHUT" width="0.254" drill="0">
 </class>

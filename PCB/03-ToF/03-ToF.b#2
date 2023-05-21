@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -191,10 +191,10 @@
 </layers>
 <board>
 <plain>
-<circle x="10.999959375" y="-10.695209375" radius="1.05" width="0.05" layer="20"/>
-<circle x="13.999959375" y="4.304790625" radius="1.05" width="0.05" layer="20"/>
-<circle x="-11.000040625" y="-10.695209375" radius="1.05" width="0.05" layer="20"/>
-<circle x="-14.000040625" y="4.304790625" radius="1.05" width="0.05" layer="20"/>
+<circle x="10.999959375" y="-10.695209375" radius="2" width="0.05" layer="42"/>
+<circle x="13.999959375" y="4.304790625" radius="2" width="0.05" layer="41"/>
+<circle x="-11.000040625" y="-10.695209375" radius="2" width="0.05" layer="41"/>
+<circle x="-14.000040625" y="4.304790625" radius="2" width="0.05" layer="41"/>
 <circle x="30.052040625" y="30.052040625" radius="1.05" width="0.05" layer="20"/>
 <wire x1="25.091" y1="31.151909375" x2="-25.091" y2="31.151909375" width="0.05" layer="20" curve="77.7"/>
 <wire x1="-25.091" y1="31.151909375" x2="-27.759759375" y2="31.2953" width="0.05" layer="20" curve="-83.85"/>
@@ -228,6 +228,14 @@
 <wire x1="-2.54" y1="-9.525" x2="2.54" y2="-9.525" width="0.05" layer="20"/>
 <wire x1="2.54" y1="-8.255" x2="2.54" y2="-9.525" width="0.05" layer="20" curve="-180"/>
 <wire x1="-2.54" y1="-9.525" x2="-2.54" y2="-8.255" width="0.05" layer="20" curve="-180"/>
+<circle x="10.999959375" y="-10.695209375" radius="2" width="0.05" layer="41"/>
+<circle x="10.999959375" y="-10.695209375" radius="1.05" width="0.05" layer="20"/>
+<circle x="13.999959375" y="4.304790625" radius="2" width="0.05" layer="42"/>
+<circle x="13.999959375" y="4.304790625" radius="1.05" width="0.05" layer="20"/>
+<circle x="-14.000040625" y="4.304790625" radius="2" width="0.05" layer="42"/>
+<circle x="-14.000040625" y="4.304790625" radius="1.05" width="0.05" layer="20"/>
+<circle x="-11.000040625" y="-10.695209375" radius="2" width="0.05" layer="42"/>
+<circle x="-11.000040625" y="-10.695209375" radius="1.05" width="0.05" layer="20"/>
 </plain>
 <libraries>
 <library name="Seeeduino XIAO">
@@ -1778,7 +1786,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </designrules>
 <autorouter>
 <pass name="Default">
-<param name="RoutingGrid" value="0.5mm"/>
+<param name="RoutingGrid" value="19.6850394mil"/>
 <param name="AutoGrid" value="1"/>
 <param name="Efforts" value="2"/>
 <param name="TopRouterVariant" value="1"/>
@@ -1873,9 +1881,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="Seeeduino XIAO" package="MOUDLE14P-2.54-21X17.8MM" value="" x="9" y="-1" smashed="yes" rot="MR0">
-<attribute name="NAME" x="1.888" y="20.336" size="0.889" layer="26" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="0.11" y="9.795" size="0.6096" layer="28" ratio="12" rot="MR0" align="center"/>
+<element name="U1" library="Seeeduino XIAO" package="MOUDLE14P-2.54-21X17.8MM" value="" x="9" y="-3.54" smashed="yes" rot="MR0">
+<attribute name="NAME" x="1.888" y="17.796" size="0.889" layer="26" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="0.11" y="7.255" size="0.6096" layer="28" ratio="12" rot="MR0" align="center"/>
 </element>
 <element name="REG1" library="#001-line" package="MYPARTS_D-PAK_TO252AA" value="NJM7805" x="-5.08" y="7.62" smashed="yes" rot="R90"/>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMA-DO214AC" package3d_urn="urn:adsk.eagle:package:43452/2" value="1N4007" x="5.08" y="8.89" smashed="yes" rot="R180">
@@ -1928,7 +1936,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="100μ" x="-7.62" y="1.27" smashed="yes" rot="R180">
 <attribute name="POPULARITY" value="3" x="1.27" y="-8.89" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="1.27" y="-8.89" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-4.845" y="5.505" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="100μ" x="-7.62" y="-4.445" smashed="yes" rot="R180">
 <attribute name="POPULARITY" value="3" x="1.27" y="-14.605" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2027,9 +2034,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="SPICEPREFIX" value="R" x="-128.65" y="27.81" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 </element>
 <element name="VL13" library="VL53L0X" package="1X04" value="VL53L0X" x="-25.6" y="0" smashed="yes" rot="R90"/>
-<element name="VL14" library="VL53L0X" package="1X04" value="VL53L0X" x="-23.651315625" y="9.796696875" smashed="yes" rot="R67.5">
-<attribute name="NAME" x="-26.342084375" y="8.07949375" size="1.27" layer="25" ratio="10" rot="R67.5"/>
-</element>
+<element name="VL14" library="VL53L0X" package="1X04" value="VL53L0X" x="-23.651315625" y="9.796696875" smashed="yes" rot="R67.5"/>
 <element name="VL15" library="VL53L0X" package="1X04" value="VL53L0X" x="-18.101934375" y="18.101934375" smashed="yes" rot="R45"/>
 <element name="VL16" library="VL53L0X" package="1X04" value="VL53L0X" x="-9.796696875" y="23.651315625" smashed="yes" rot="R22.5"/>
 <element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k" x="3.81" y="3.81" smashed="yes" rot="R270">
@@ -2179,19 +2184,19 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-25.6" y1="3.81" x2="-25.1093375" y2="-6.276715625" width="0" layer="19" extent="1-1"/>
 <wire x1="-22.193290625" y1="13.316675" x2="-25.6" y2="3.81" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.40785625" y1="20.796009375" x2="-6.276715625" y2="25.1093375" width="0" layer="19" extent="1-1"/>
-<wire x1="-8" y1="14.58" x2="-15.40785625" y2="20.796009375" width="0" layer="19" extent="16-16"/>
-<wire x1="-7.58" y1="7.62" x2="-8" y2="14.58" width="0" layer="19" extent="1-16"/>
+<wire x1="-8" y1="12.04" x2="-15.40785625" y2="20.796009375" width="0" layer="19" extent="16-16"/>
+<wire x1="-7.58" y1="7.62" x2="-8" y2="12.04" width="0" layer="19" extent="1-16"/>
 <wire x1="-5.42" y1="1.27" x2="-7.58" y2="7.62" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.77" y1="0" x2="-5.42" y2="1.27" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.77" y1="-3.175" x2="-1.77" y2="0" width="0" layer="19" extent="1-1"/>
-<wire x1="-5.42" y1="-4.445" x2="-1.77" y2="-3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="1.27" y1="-10.795" x2="-1.77" y2="-3.175" width="0" layer="19" extent="1-1"/>
 <wire x1="1.505" y1="1.6" x2="-1.77" y2="0" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.42" y1="-4.445" x2="-1.77" y2="-3.175" width="0" layer="19" extent="1-1"/>
 <wire x1="4.43" y1="5.715" x2="1.505" y2="1.6" width="0" layer="19" extent="1-1"/>
 <wire x1="4.43" y1="6.985" x2="4.43" y2="5.715" width="0" layer="19" extent="1-1"/>
-<wire x1="7.355" y1="1.6" x2="1.505" y2="1.6" width="0" layer="19" extent="1-1"/>
+<wire x1="7.355" y1="1.6" x2="4.43" y2="5.715" width="0" layer="19" extent="1-1"/>
 <wire x1="8.005" y1="1.6" x2="7.355" y2="1.6" width="0" layer="19" extent="1-1"/>
 <wire x1="6.705" y1="-4.14" x2="7.355" y2="1.6" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="-10.795" x2="-1.77" y2="-3.175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V" class="1">
 <contactref element="U1" pad="14"/>
@@ -2232,7 +2237,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <contactref element="LED25" pad="1-VDD"/>
 <contactref element="LED26" pad="1-VDD"/>
 <contactref element="LED27" pad="1-VDD"/>
-<wire x1="15.316290625" y1="30.835953125" x2="-2.02" y2="1.27" width="0" layer="19" extent="1-1"/>
 <wire x1="21.040125" y1="27.256296875" x2="15.316290625" y2="30.835953125" width="0" layer="19" extent="1-1"/>
 <wire x1="25.950815625" y1="22.627415625" x2="21.040125" y2="27.256296875" width="0" layer="19" extent="1-1"/>
 <wire x1="29.869075" y1="17.129825" x2="25.950815625" y2="22.627415625" width="0" layer="19" extent="1-1"/>
@@ -2264,11 +2268,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-30.835953125" y1="15.316290625" x2="-33.233240625" y2="9.008009375" width="0" layer="19" extent="1-1"/>
 <wire x1="-27.256296875" y1="21.040125" x2="-30.835953125" y2="15.316290625" width="0" layer="19" extent="1-1"/>
 <wire x1="-22.62741875" y1="25.950815625" x2="-17.129828125" y2="29.869075" width="0" layer="19" extent="1-1"/>
-<wire x1="-8" y1="17.12" x2="-17.129828125" y2="29.869075" width="0" layer="19" extent="1-16"/>
-<wire x1="-0.28" y1="9.9" x2="-8" y2="17.12" width="0" layer="19" extent="1-16"/>
+<wire x1="-8" y1="14.58" x2="-17.129828125" y2="29.869075" width="0" layer="19" extent="1-16"/>
+<wire x1="-0.28" y1="9.9" x2="-8" y2="14.58" width="0" layer="19" extent="1-16"/>
 <wire x1="5.73" y1="6.985" x2="-0.28" y2="9.9" width="0" layer="19" extent="1-1"/>
 <wire x1="7.13" y1="8.89" x2="5.73" y2="6.985" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.82" y1="1.27" x2="-0.28" y2="9.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.02" y1="1.27" x2="-0.28" y2="9.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.82" y1="1.27" x2="-2.02" y2="1.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3" class="1">
 <contactref element="U1" pad="12"/>
@@ -2309,7 +2314,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <contactref element="R19" pad="1"/>
 <contactref element="R20" pad="1"/>
 <contactref element="R21" pad="1"/>
-<wire x1="15.66333125" y1="21.221275" x2="-2.02" y2="-4.445" width="0" layer="19" extent="1-1"/>
 <wire x1="22.592059375" y1="13.61180625" x2="15.66333125" y2="21.221275" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="25.6" x2="15.66333125" y2="21.221275" width="0" layer="19" extent="1-1"/>
 <wire x1="26.081353125" y1="3.930059375" x2="22.592059375" y2="13.61180625" width="0" layer="19" extent="1-1"/>
@@ -2325,27 +2329,28 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-26.081353125" y1="-3.930059375" x2="-22.592059375" y2="-13.61180625" width="0" layer="19" extent="1-1"/>
 <wire x1="-25.6" y1="6.35" x2="-26.081353125" y2="-3.930059375" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.221275" y1="15.66333125" x2="-13.61180625" y2="22.592059375" width="0" layer="19" extent="1-1"/>
-<wire x1="-8" y1="12.04" x2="-13.61180625" y2="22.592059375" width="0" layer="19" extent="16-16"/>
-<wire x1="1.27" y1="4.31" x2="-8" y2="12.04" width="0" layer="19" extent="1-16"/>
-<wire x1="2.54" y1="4.31" x2="1.27" y2="4.31" width="0" layer="19" extent="1-1"/>
-<wire x1="3.81" y1="4.31" x2="2.54" y2="4.31" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="4.31" x2="3.81" y2="4.31" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="4.31" x2="5.08" y2="4.31" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="4.31" x2="6.35" y2="4.31" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="4.31" x2="7.62" y2="4.31" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="4.31" x2="8.89" y2="4.31" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="0.77" x2="10.16" y2="4.31" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="-1.77" x2="10.16" y2="0.77" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="-4.31" x2="10.16" y2="-1.77" width="0" layer="19" extent="1-1"/>
-<wire x1="8.655" y1="-4.14" x2="10.16" y2="-4.31" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="-6.85" x2="8.655" y2="-4.14" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="-6.85" x2="8.89" y2="-6.85" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="-6.85" x2="21.221275" y2="-15.66333125" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="-6.85" x2="10.16" y2="-6.85" width="0" layer="19" extent="1-1"/>
 <wire x1="7.62" y1="-6.85" x2="8.89" y2="-6.85" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="-6.85" x2="7.62" y2="-6.85" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="-6.85" x2="6.35" y2="-6.85" width="0" layer="19" extent="1-1"/>
 <wire x1="3.81" y1="-6.85" x2="5.08" y2="-6.85" width="0" layer="19" extent="1-1"/>
 <wire x1="2.54" y1="-6.85" x2="3.81" y2="-6.85" width="0" layer="19" extent="1-1"/>
 <wire x1="1.27" y1="-6.85" x2="2.54" y2="-6.85" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="-4.31" x2="10.16" y2="-6.85" width="0" layer="19" extent="1-1"/>
+<wire x1="8.655" y1="-4.14" x2="10.16" y2="-4.31" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="-1.77" x2="10.16" y2="-4.31" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="0.77" x2="10.16" y2="-1.77" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="4.31" x2="10.16" y2="0.77" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="4.31" x2="10.16" y2="4.31" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="4.31" x2="8.89" y2="4.31" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="4.31" x2="7.62" y2="4.31" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="4.31" x2="6.35" y2="4.31" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="4.31" x2="5.08" y2="4.31" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="4.31" x2="3.81" y2="4.31" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="4.31" x2="2.54" y2="4.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.02" y1="-4.445" x2="1.27" y2="-6.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-8" y1="9.5" x2="1.27" y2="4.31" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SCL">
 <contactref element="U1" pad="6"/>
@@ -2384,7 +2389,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-17.20390625" y1="18.999959375" x2="-8.62336875" y2="24.137321875" width="0" layer="19" extent="1-1"/>
 <wire x1="10.16" y1="-3.31" x2="23.16530625" y2="-10.970021875" width="0" layer="19" extent="1-1"/>
 <wire x1="7.355" y1="-4.14" x2="10.16" y2="-3.31" width="0" layer="19" extent="1-1"/>
-<wire x1="8.165" y1="4.42" x2="7.355" y2="-4.14" width="0" layer="19" extent="1-16"/>
+<wire x1="8.165" y1="1.88" x2="10.16" y2="-3.31" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="X1" class="2">
 <contactref element="U2" pad="6"/>
@@ -2428,9 +2433,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-1.27" y1="25.6" x2="8.62336875" y2="24.137321875" width="0" layer="19" extent="1-1"/>
 <wire x1="-10.970021875" y1="23.16530625" x2="-1.27" y2="25.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.999959375" y1="17.20390625" x2="-24.137321875" y2="8.62336875" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="-0.77" x2="24.137321875" y2="-8.62336875" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="-0.77" x2="25.6" y2="1.27" width="0" layer="19" extent="1-1"/>
 <wire x1="8.005" y1="-4.14" x2="10.16" y2="-0.77" width="0" layer="19" extent="1-1"/>
-<wire x1="8.165" y1="6.96" x2="10.16" y2="-0.77" width="0" layer="19" extent="1-16"/>
+<wire x1="8.165" y1="4.42" x2="10.16" y2="-0.77" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD" class="1">
 <contactref element="REG1" pad="1"/>
@@ -2439,9 +2444,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <contactref element="C4" pad="+"/>
 <contactref element="TP1" pad="TP"/>
 <wire x1="5.73" y1="5.715" x2="3.03" y2="8.89" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.28" y1="5.34" x2="5.73" y2="5.715" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="-10.795" x2="-0.28" y2="5.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.82" y1="-4.445" x2="2.54" y2="-10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.28" y1="5.34" x2="3.03" y2="8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.82" y1="-4.445" x2="-0.28" y2="5.34" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="-10.795" x2="-9.82" y2="-4.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="X2" class="2">
 <contactref element="U2" pad="5"/>
@@ -2523,22 +2528,22 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <signal name="TX">
 <contactref element="U1" pad="7"/>
 <contactref element="TP4" pad="TP"/>
-<wire x1="-1.27" y1="-10.795" x2="8.165" y2="1.88" width="0" layer="19" extent="1-16"/>
+<wire x1="8.165" y1="-0.66" x2="-1.27" y2="-10.795" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="RX">
 <contactref element="U1" pad="8"/>
 <contactref element="TP3" pad="TP"/>
-<wire x1="0" y1="-10.795" x2="-8" y2="1.88" width="0" layer="19" extent="1-16"/>
+<wire x1="-8" y1="-0.66" x2="0" y2="-10.795" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$23">
 <contactref element="R3" pad="1"/>
 <contactref element="LED40" pad="C"/>
-<wire x1="-0.77" y1="0" x2="-0.52" y2="1.27" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.52" y1="1.27" x2="-0.77" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="R4" pad="1"/>
 <contactref element="LED41" pad="C"/>
-<wire x1="-0.77" y1="-3.175" x2="-0.52" y2="-4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.52" y1="-4.445" x2="-0.77" y2="-3.175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="U2" pad="1"/>
