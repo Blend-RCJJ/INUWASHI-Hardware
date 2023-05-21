@@ -1698,9 +1698,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.381" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
 </class>
-<class number="1" name="PWR" width="0.508" drill="0">
+<class number="1" name="PWR" width="0.381" drill="0">
 </class>
 <class number="2" name="XSHUT" width="0.254" drill="0">
 </class>
@@ -1786,7 +1786,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </designrules>
 <autorouter>
 <pass name="Default">
-<param name="RoutingGrid" value="19.6850394mil"/>
+<param name="RoutingGrid" value="0.500000001mm"/>
 <param name="AutoGrid" value="1"/>
 <param name="Efforts" value="2"/>
 <param name="TopRouterVariant" value="1"/>
