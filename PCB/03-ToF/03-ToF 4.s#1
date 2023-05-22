@@ -21236,7 +21236,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="76.2" y1="20.32" x2="86.36" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="-"/>
 <wire x1="86.36" y1="20.32" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
-<junction x="76.2" y="20.32"/>
 </segment>
 <segment>
 <pinref part="GND41" gate="1" pin="GND"/>
@@ -23010,49 +23009,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,2,78.74,157.48,U2,VDD,+3V3,,,"/>
-<approved hash="104,2,78.74,111.76,U2,VSS,GND,,,"/>
-<approved hash="104,3,40.64,167.64,LED1,VDD,+5V,,,"/>
-<approved hash="104,3,66.04,167.64,LED2,VDD,+5V,,,"/>
-<approved hash="104,3,91.44,167.64,LED3,VDD,+5V,,,"/>
-<approved hash="104,3,116.84,167.64,LED4,VDD,+5V,,,"/>
-<approved hash="104,3,142.24,167.64,LED5,VDD,+5V,,,"/>
-<approved hash="104,3,167.64,167.64,LED6,VDD,+5V,,,"/>
-<approved hash="104,3,193.04,167.64,LED7,VDD,+5V,,,"/>
-<approved hash="104,3,218.44,167.64,LED8,VDD,+5V,,,"/>
-<approved hash="104,3,40.64,124.46,LED10,VDD,+5V,,,"/>
-<approved hash="104,3,66.04,124.46,LED11,VDD,+5V,,,"/>
-<approved hash="104,3,91.44,124.46,LED12,VDD,+5V,,,"/>
-<approved hash="104,3,116.84,124.46,LED13,VDD,+5V,,,"/>
-<approved hash="104,3,142.24,124.46,LED14,VDD,+5V,,,"/>
-<approved hash="104,3,167.64,124.46,LED15,VDD,+5V,,,"/>
-<approved hash="104,3,193.04,124.46,LED16,VDD,+5V,,,"/>
-<approved hash="104,3,40.64,81.28,LED19,VDD,+5V,,,"/>
-<approved hash="104,3,66.04,81.28,LED20,VDD,+5V,,,"/>
-<approved hash="104,3,91.44,81.28,LED21,VDD,+5V,,,"/>
-<approved hash="104,3,116.84,81.28,LED22,VDD,+5V,,,"/>
-<approved hash="104,3,142.24,81.28,LED23,VDD,+5V,,,"/>
-<approved hash="104,3,167.64,81.28,LED24,VDD,+5V,,,"/>
-<approved hash="104,3,40.64,38.1,LED28,VDD,+5V,,,"/>
-<approved hash="104,3,66.04,38.1,LED29,VDD,+5V,,,"/>
-<approved hash="104,3,91.44,38.1,LED30,VDD,+5V,,,"/>
-<approved hash="104,3,116.84,38.1,LED31,VDD,+5V,,,"/>
-<approved hash="104,3,142.24,38.1,LED32,VDD,+5V,,,"/>
-<approved hash="104,3,243.84,167.64,LED9,VDD,+5V,,,"/>
-<approved hash="104,3,218.44,124.46,LED17,VDD,+5V,,,"/>
-<approved hash="104,3,243.84,124.46,LED18,VDD,+5V,,,"/>
-<approved hash="104,3,193.04,81.28,LED25,VDD,+5V,,,"/>
-<approved hash="104,3,218.44,81.28,LED26,VDD,+5V,,,"/>
-<approved hash="104,3,243.84,81.28,LED27,VDD,+5V,,,"/>
-<approved hash="209,2,220.98,55.88,LED_SIG,,,,,"/>
-<approved hash="209,3,22.86,149.86,LED_SIG,,,,,"/>
-<approved hash="108,1,76.2,20.32,GND,,,,,"/>
-<approved hash="113,2,131.976,90.066,FRAME2,,,,,"/>
-<approved hash="113,2,187.325,136.131,U1,,,,,"/>
-<approved hash="113,3,131.976,90.066,FRAME3,,,,,"/>
-<approved hash="113,1,131.976,90.066,FRAME4,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
