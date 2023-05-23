@@ -2051,7 +2051,6 @@ www.irf.com&lt;p&gt;
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X1" library="Seeeduino XIAO" deviceset="SEEEDUINO-XIAO-DIP" device=""/>
@@ -2587,6 +2586,7 @@ www.irf.com&lt;p&gt;
 <segment>
 <pinref part="X1" gate="G$1" pin="PA9_A5_D5_SCL"/>
 <wire x1="48.26" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
+<label x="22.86" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TOUCH_IRQ" class="0">
@@ -2709,23 +2709,27 @@ www.irf.com&lt;p&gt;
 </net>
 </nets>
 </sheet>
-<sheet>
-<plain>
-</plain>
-<instances>
-<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME2" gate="G$2" x="162.56" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="248.92" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="180.34" y="19.05" size="2.54" layer="94"/>
-</instance>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
 </sheets>
+<errors>
+<approved hash="104,1,60.96,172.72,LED1,VDD,+5V,,,"/>
+<approved hash="104,1,91.44,172.72,LED2,VDD,+5V,,,"/>
+<approved hash="104,1,121.92,172.72,LED3,VDD,+5V,,,"/>
+<approved hash="104,1,152.4,172.72,LED4,VDD,+5V,,,"/>
+<approved hash="104,1,182.88,172.72,LED5,VDD,+5V,,,"/>
+<approved hash="104,1,213.36,172.72,LED6,VDD,+5V,,,"/>
+<approved hash="104,1,243.84,172.72,LED7,VDD,+5V,,,"/>
+<approved hash="104,1,60.96,134.62,LED8,VDD,+5V,,,"/>
+<approved hash="104,1,91.44,134.62,LED9,VDD,+5V,,,"/>
+<approved hash="104,1,121.92,134.62,LED10,VDD,+5V,,,"/>
+<approved hash="104,1,152.4,134.62,LED11,VDD,+5V,,,"/>
+<approved hash="104,1,182.88,134.62,LED12,VDD,+5V,,,"/>
+<approved hash="104,1,213.36,134.62,LED13,VDD,+5V,,,"/>
+<approved hash="104,1,243.84,134.62,LED14,VDD,+5V,,,"/>
+<approved hash="209,1,35.56,20.32,LED,,,,,"/>
+<approved hash="209,1,43.18,154.94,LED,,,,,"/>
+<approved hash="113,1,131.976,90.066,FRAME1,,,,,"/>
+<approved hash="113,1,119.143,25.1739,JP1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

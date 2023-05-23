@@ -2004,7 +2004,7 @@ www.irf.com&lt;p&gt;
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.381" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
 </class>
 </classes>
 <parts>
