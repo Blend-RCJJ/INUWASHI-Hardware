@@ -2660,11 +2660,6 @@ www.irf.com&lt;p&gt;
 <label x="246.38" y="58.42" size="1.778" layer="95"/>
 <pinref part="TFT1" gate="G$1" pin="T_CLK"/>
 </segment>
-<segment>
-<wire x1="228.6" y1="68.58" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
-<label x="246.38" y="68.58" size="1.778" layer="95"/>
-<pinref part="TFT1" gate="G$1" pin="SCK"/>
-</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -2689,11 +2684,6 @@ www.irf.com&lt;p&gt;
 <label x="246.38" y="71.12" size="1.778" layer="95"/>
 <pinref part="TFT1" gate="G$1" pin="MOSI"/>
 </segment>
-<segment>
-<wire x1="228.6" y1="53.34" x2="243.84" y2="53.34" width="0.1524" layer="91"/>
-<label x="246.38" y="53.34" size="1.778" layer="95"/>
-<pinref part="TFT1" gate="G$1" pin="T_DIN"/>
-</segment>
 </net>
 <net name="BACKLIGHT" class="0">
 <segment>
@@ -2705,6 +2695,20 @@ www.irf.com&lt;p&gt;
 <pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="193.04" y1="55.88" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
 <label x="172.72" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<wire x1="228.6" y1="68.58" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
+<label x="246.38" y="68.58" size="1.778" layer="95"/>
+<pinref part="TFT1" gate="G$1" pin="SCK"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<wire x1="228.6" y1="53.34" x2="243.84" y2="53.34" width="0.1524" layer="91"/>
+<label x="246.38" y="53.34" size="1.778" layer="95"/>
+<pinref part="TFT1" gate="G$1" pin="T_DIN"/>
 </segment>
 </net>
 </nets>
