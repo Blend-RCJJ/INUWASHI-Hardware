@@ -2188,14 +2188,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <contactref element="U1" pad="14"/>
 <wire x1="-8.029075" y1="-56.49" x2="-8.11" y2="-56.49" width="0.508" layer="1"/>
 <contactref element="J7" pad="P$2"/>
-<wire x1="-15" y1="0" x2="-16.018" y2="1.018" width="1.27" layer="16"/>
-<wire x1="-16.018" y1="1.018" x2="-16.33386875" y2="1.018" width="1.27" layer="16"/>
-<wire x1="-20.31586875" y1="5" x2="-25" y2="5" width="1.27" layer="16"/>
-<wire x1="-16.33386875" y1="1.018" x2="-20.31586875" y2="5" width="1.27" layer="16"/>
-<wire x1="-25" y1="5" x2="-27.238" y2="7.238" width="1.27" layer="16"/>
-<wire x1="-27.238" y1="7.238" x2="-27.238" y2="8.31563125" width="1.27" layer="16"/>
-<wire x1="-30" y1="11.07763125" x2="-30" y2="22" width="1.27" layer="16"/>
-<wire x1="-27.238" y1="8.31563125" x2="-30" y2="11.07763125" width="1.27" layer="16"/>
+<wire x1="-8.11" y1="-56.49" x2="-15" y2="0" width="0" layer="19" extent="1-1"/>
 <wire x1="18.19" y1="-13.73" x2="-8.029075" y2="-56.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LOADCELL-L">
@@ -2242,8 +2235,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="-47.5612625" y1="18.075" x2="-37.176975" y2="18.075" width="1.016" layer="1"/>
 <wire x1="-37.176975" y1="18.075" x2="-27.365" y2="8.263025" width="1.016" layer="1"/>
 <wire x1="-27.365" y1="8.263025" x2="-27.365" y2="1.135" width="1.016" layer="1"/>
-<wire x1="-27.365" y1="1.135" x2="-31.25" y2="-2.75" width="1.016" layer="1"/>
-<wire x1="-31.25" y1="-2.75" x2="-44.5" y2="-16" width="1.016" layer="1"/>
+<wire x1="-27.365" y1="1.135" x2="-44.5" y2="-16" width="1.016" layer="1"/>
 <wire x1="-44.5" y1="-16" x2="8.30591875" y2="-16" width="1.016" layer="16"/>
 <wire x1="8.30591875" y1="-16" x2="12.48091875" y2="-11.825" width="1.016" layer="16"/>
 <wire x1="12.48091875" y1="-11.825" x2="25.966875" y2="-11.825" width="1.016" layer="16"/>
@@ -2255,8 +2247,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="44.5" y1="16" x2="44.5" y2="10.3796125" width="1.016" layer="16"/>
 <wire x1="44.5" y1="10.3796125" x2="41.14758125" y2="7.02719375" width="1.016" layer="16"/>
 <contactref element="J7" pad="P$1"/>
-<wire x1="-15" y1="-2.5" x2="-31" y2="-2.5" width="0.508" layer="1"/>
-<wire x1="-31" y1="-2.5" x2="-31.25" y2="-2.75" width="0.508" layer="1"/>
+<wire x1="-44.5" y1="-16" x2="-15" y2="-2.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="JP1" pad="1"/>

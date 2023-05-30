@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -22273,20 +22273,6 @@ Low profile connectors, straight&lt;p&gt;
 <label x="101.6" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SW1" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PA4"/>
-<wire x1="124.46" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
-<label x="104.14" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SW2" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PA5"/>
-<wire x1="124.46" y1="114.3" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
-<label x="104.14" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="TOGGLE" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="PA6"/>
@@ -23390,22 +23376,22 @@ Low profile connectors, straight&lt;p&gt;
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,2,81.28,170.18,LED1,VDD,+5V,,,"/>
-<approved hash="104,2,109.22,170.18,LED2,VDD,+5V,,,"/>
-<approved hash="104,2,137.16,170.18,LED3,VDD,+5V,,,"/>
-<approved hash="104,2,165.1,170.18,LED4,VDD,+5V,,,"/>
-<approved hash="104,2,193.04,170.18,LED5,VDD,+5V,,,"/>
-<approved hash="104,2,220.98,170.18,LED6,VDD,+5V,,,"/>
-<approved hash="104,2,248.92,170.18,LED7,VDD,+5V,,,"/>
-<approved hash="104,2,81.28,132.08,LED8,VDD,+5V,,,"/>
-<approved hash="104,2,109.22,132.08,LED9,VDD,+5V,,,"/>
-<approved hash="104,2,137.16,132.08,LED10,VDD,+5V,,,"/>
-<approved hash="104,2,165.1,132.08,LED11,VDD,+5V,,,"/>
-<approved hash="104,2,193.04,132.08,LED12,VDD,+5V,,,"/>
-<approved hash="104,2,220.98,132.08,LED13,VDD,+5V,,,"/>
-<approved hash="104,2,248.92,132.08,LED14,VDD,+5V,,,"/>
+<approved hash="101,1,99.06,160.02,JP1,2,,,,"/>
+<approved hash="104,2,58.42,167.64,LED1,VDD,+5V,,,"/>
+<approved hash="104,2,86.36,167.64,LED2,VDD,+5V,,,"/>
+<approved hash="104,2,114.3,167.64,LED3,VDD,+5V,,,"/>
+<approved hash="104,2,142.24,167.64,LED4,VDD,+5V,,,"/>
+<approved hash="104,2,170.18,167.64,LED5,VDD,+5V,,,"/>
+<approved hash="104,2,198.12,167.64,LED6,VDD,+5V,,,"/>
+<approved hash="104,2,226.06,167.64,LED7,VDD,+5V,,,"/>
+<approved hash="104,2,58.42,124.46,LED8,VDD,+5V,,,"/>
+<approved hash="104,2,86.36,124.46,LED9,VDD,+5V,,,"/>
+<approved hash="104,2,114.3,124.46,LED10,VDD,+5V,,,"/>
+<approved hash="104,2,142.24,124.46,LED11,VDD,+5V,,,"/>
+<approved hash="104,2,170.18,124.46,LED12,VDD,+5V,,,"/>
+<approved hash="104,2,198.12,124.46,LED13,VDD,+5V,,,"/>
+<approved hash="104,2,226.06,124.46,LED14,VDD,+5V,,,"/>
 <approved hash="104,1,35.56,172.72,X2,VBUS,N$49,,,"/>
-<approved hash="104,1,109.22,172.72,X3,VBUS,N$50,,,"/>
 <approved hash="104,1,22.86,127,U2B,VSS_2,GND,,,"/>
 <approved hash="104,1,22.86,124.46,U2B,VSS_3,GND,,,"/>
 <approved hash="104,1,22.86,121.92,U2B,VSS_4,GND,,,"/>
@@ -23422,11 +23408,7 @@ Low profile connectors, straight&lt;p&gt;
 <approved hash="104,1,50.8,73.66,U1,V3,N$8,,,"/>
 <approved hash="104,1,182.88,167.64,U4,VIN,+3V3,,,"/>
 <approved hash="204,1,213.36,167.64,U4,VOUT,,,,"/>
-<approved hash="104,2,139.7,81.28,U5,VCC,+5V,,,"/>
-<approved hash="104,3,60.96,114.3,IC1,V+,+3V3,,,"/>
-<approved hash="104,3,60.96,99.06,IC1,V-,GND,,,"/>
-<approved hash="104,3,142.24,114.3,IC2,V+,+3V3,,,"/>
-<approved hash="104,3,142.24,99.06,IC2,V-,GND,,,"/>
+<approved hash="104,2,139.7,66.04,U5,VCC,+5V,,,"/>
 <approved hash="209,1,22.86,53.34,CTS,,,,,"/>
 <approved hash="106,1,22.86,53.34,CTS,,,,,"/>
 <approved hash="106,1,22.86,58.42,RTS,,,,,"/>
@@ -23434,11 +23416,12 @@ Low profile connectors, straight&lt;p&gt;
 <approved hash="108,1,35.56,10.16,GND,,,,,"/>
 <approved hash="113,1,131.976,90.066,FRAME1,,,,,"/>
 <approved hash="113,2,131.976,90.066,FRAME2,,,,,"/>
-<approved hash="113,1,27.305,163.919,X2,,,,,"/>
-<approved hash="113,1,100.965,163.919,X3,,,,,"/>
 <approved hash="113,3,131.976,90.066,FRAME3,,,,,"/>
-<approved hash="113,1,198.12,161.872,U4,,,,,"/>
+<approved hash="113,1,198.12,161.853,U4,,,,,"/>
 <approved hash="113,3,55.88,59.3954,S1,,,,,"/>
+<approved hash="113,3,114.3,150.84,SV1,,,,,"/>
+<approved hash="113,1,98.8229,162.756,JP1,,,,,"/>
+<approved hash="113,1,129.303,158.946,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
