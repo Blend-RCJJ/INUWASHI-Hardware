@@ -5920,16 +5920,16 @@ PULL-UP PULL-UP♪</text>
 <instance part="GND18" gate="1" x="236.22" y="104.14" smashed="yes">
 <attribute name="VALUE" x="233.68" y="101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="86.36" y="132.08" smashed="yes">
-<attribute name="NAME" x="82.55" y="133.5786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="82.55" y="128.778" size="1.778" layer="96"/>
+<instance part="R9" gate="G$1" x="86.36" y="127" smashed="yes">
+<attribute name="NAME" x="82.55" y="128.4986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="82.55" y="123.698" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="86.36" y="121.92" smashed="yes">
-<attribute name="NAME" x="82.55" y="123.4186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="82.55" y="118.618" size="1.778" layer="96"/>
+<instance part="R10" gate="G$1" x="86.36" y="116.84" smashed="yes">
+<attribute name="NAME" x="82.55" y="118.3386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="82.55" y="113.538" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V8" gate="G$1" x="99.06" y="137.16" smashed="yes">
-<attribute name="VALUE" x="101.6" y="134.62" size="1.778" layer="96"/>
+<instance part="+3V8" gate="G$1" x="99.06" y="132.08" smashed="yes">
+<attribute name="VALUE" x="101.6" y="129.54" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -6245,12 +6245,12 @@ PULL-UP PULL-UP♪</text>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="121.92" x2="99.06" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="121.92" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="116.84" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="116.84" x2="99.06" y2="127" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="132.08" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="132.08" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
-<junction x="99.06" y="132.08"/>
+<wire x1="99.06" y1="127" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="127" x2="99.06" y2="127" width="0.1524" layer="91"/>
+<junction x="99.06" y="127"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
@@ -6272,8 +6272,8 @@ PULL-UP PULL-UP♪</text>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="121.92" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
-<label x="60.96" y="121.92" size="1.778" layer="95"/>
+<wire x1="68.58" y1="116.84" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
+<label x="60.96" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -6294,8 +6294,8 @@ PULL-UP PULL-UP♪</text>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
-<label x="60.96" y="132.08" size="1.778" layer="95"/>
+<wire x1="81.28" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
+<label x="60.96" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XSHUT1" class="0">
