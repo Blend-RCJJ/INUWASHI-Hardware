@@ -2312,6 +2312,26 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <vertex x="-68" y="-72"/>
 <vertex x="-68" y="31"/>
 </polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="-21" y="31"/>
+<vertex x="-21" y="17"/>
+<vertex x="30.5" y="17"/>
+<vertex x="34" y="20.5"/>
+<vertex x="34" y="28.5"/>
+<vertex x="32" y="30.5"/>
+<vertex x="32" y="49"/>
+<vertex x="23" y="49"/>
+<vertex x="23" y="61"/>
+<vertex x="44" y="61"/>
+<vertex x="64" y="41"/>
+<vertex x="65" y="40"/>
+<vertex x="65" y="-72"/>
+<vertex x="63" y="-74"/>
+<vertex x="-71" y="-74"/>
+<vertex x="-71" y="15"/>
+<vertex x="-54" y="32"/>
+<vertex x="-21" y="32"/>
+</polygon>
 </signal>
 <signal name="VDD">
 <contactref element="CN1" pad="2"/>

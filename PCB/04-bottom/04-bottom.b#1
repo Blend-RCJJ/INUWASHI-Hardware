@@ -291,7 +291,7 @@
 <circle x="-61" y="13.26795" radius="1.05" width="0.05" layer="20"/>
 <circle x="61" y="-13.26795" radius="2" width="0.05" layer="42"/>
 <circle x="61" y="-13.26795" radius="1.05" width="0.05" layer="20"/>
-<circle x="61" y="13.26795" radius="2" width="0.05" layer="41"/>
+<circle x="61" y="13.26795" radius="2" width="0.05" layer="42"/>
 <circle x="61" y="13.26795" radius="1.05" width="0.05" layer="20"/>
 <wire x1="-46" y1="27" x2="45" y2="27" width="0.1524" layer="100"/>
 <wire x1="-66" y1="10" x2="66" y2="10" width="0.1524" layer="100"/>
@@ -316,6 +316,10 @@
 <wire x1="39.37" y1="-66.04" x2="39.37" y2="-67.31" width="0.05" layer="20" curve="-180"/>
 <wire x1="35.56" y1="-67.31" x2="35.56" y2="-66.04" width="0.05" layer="20" curve="-180"/>
 <wire x1="39.37" y1="-67.31" x2="35.56" y2="-67.31" width="0.05" layer="20"/>
+<circle x="25" y="10" radius="2" width="0.05" layer="42"/>
+<circle x="-25" y="27" radius="2" width="0.05" layer="42"/>
+<circle x="-25" y="10" radius="2" width="0.05" layer="42"/>
+<circle x="61" y="13.26795" radius="2" width="0.05" layer="41"/>
 </plain>
 <libraries>
 <library name="XT-30">
@@ -2332,6 +2336,39 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <vertex x="-54" y="32"/>
 <vertex x="-21" y="32"/>
 </polygon>
+<via x="-63" y="10" extent="1-16" drill="0.35"/>
+<via x="-63" y="-11" extent="1-16" drill="0.35"/>
+<via x="-63" y="0" extent="1-16" drill="0.35"/>
+<via x="63" y="10" extent="1-16" drill="0.35"/>
+<via x="63" y="-9" extent="1-16" drill="0.35"/>
+<via x="63" y="1" extent="1-16" drill="0.35"/>
+<via x="-23" y="-37" extent="1-16" drill="0.35"/>
+<via x="-7" y="-21" extent="1-16" drill="0.35"/>
+<via x="-39" y="-68" extent="1-16" drill="0.35"/>
+<via x="-26" y="-68" extent="1-16" drill="0.35"/>
+<via x="-39" y="-55" extent="1-16" drill="0.35"/>
+<via x="-35" y="-60" extent="1-16" drill="0.35"/>
+<via x="-29" y="-54" extent="1-16" drill="0.35"/>
+<via x="-19" y="-44" extent="1-16" drill="0.35"/>
+<via x="-10" y="-41" extent="1-16" drill="0.35"/>
+<via x="-10" y="-48" extent="1-16" drill="0.35"/>
+<via x="-19" y="-48" extent="1-16" drill="0.35"/>
+<via x="-27" y="-56" extent="1-16" drill="0.35"/>
+<via x="20" y="-59" extent="1-16" drill="0.35"/>
+<via x="10" y="-49" extent="1-16" drill="0.35"/>
+<via x="16" y="-55" extent="1-16" drill="0.35"/>
+<via x="10" y="-55" extent="1-16" drill="0.35"/>
+<via x="10" y="-59" extent="1-16" drill="0.35"/>
+<via x="26" y="-68" extent="1-16" drill="0.35"/>
+<via x="32" y="-68" extent="1-16" drill="0.35"/>
+<via x="14" y="-43" extent="1-16" drill="0.35"/>
+<via x="10" y="-40" extent="1-16" drill="0.35"/>
+<via x="25" y="-44" extent="1-16" drill="0.35"/>
+<via x="32" y="-43" extent="1-16" drill="0.35"/>
+<via x="32" y="-37" extent="1-16" drill="0.35"/>
+<via x="21" y="-49" extent="1-16" drill="0.35"/>
+<via x="-37" y="29" extent="1-16" drill="0.35"/>
+<via x="-28" y="29" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VDD">
 <contactref element="CN1" pad="2"/>
