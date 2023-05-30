@@ -5621,7 +5621,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.508" drill="0">
 </class>
 </classes>
 <parts>
