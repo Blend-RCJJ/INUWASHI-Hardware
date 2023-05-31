@@ -23143,8 +23143,9 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="UART3-TX" class="0">
 <segment>
-<wire x1="247.65" y1="146.05" x2="255.27" y2="146.05" width="0.1524" layer="91"/>
-<label x="257.81" y="146.05" size="1.778" layer="95"/>
+<wire x1="231.14" y1="160.02" x2="238.76" y2="160.02" width="0.1524" layer="91"/>
+<label x="241.3" y="160.02" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="G20"/>
 </segment>
 </net>
 <net name="TOGGLE" class="0">
