@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7551,6 +7551,20 @@ PULL-UP PULL-UP♪</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,106.68,17.78,JP2,2,,,,"/>
+<approved hash="101,1,137.16,17.78,JP4,2,,,,"/>
+<approved hash="104,1,53.34,83.82,AMP1,V+,+3V3,,,"/>
+<approved hash="104,1,53.34,68.58,AMP1,V-,GND,,,"/>
+<approved hash="104,1,53.34,38.1,AMP2,V+,+3V3,,,"/>
+<approved hash="104,1,53.34,22.86,AMP2,V-,GND,,,"/>
+<approved hash="113,1,131.976,90.066,FRAME1,,,,,"/>
+<approved hash="113,1,212.725,67.5399,U1,,,,,"/>
+<approved hash="113,1,106.443,40.8356,JP1,,,,,"/>
+<approved hash="113,1,106.443,20.5156,JP2,,,,,"/>
+<approved hash="113,1,136.923,40.8356,JP3,,,,,"/>
+<approved hash="113,1,136.923,20.5156,JP4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
